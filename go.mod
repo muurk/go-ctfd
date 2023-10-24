@@ -1,4 +1,4 @@
-module github.com/ctfer-io/go-ctfd
+module github.com/muurk/go-ctfd
 
 go 1.20
 
