@@ -28,6 +28,10 @@ type PostChallengesParams struct {
 	Minimum     *int   `json:"minimum,omitempty"`
 	State       string `json:"state"`
 	Type        string `json:"type"`
+	Anonymize	string `json:"anonymize"`
+	ConnectionInfo	string `json:"connectioninfo"`
+	MaxAttempts	string `json:"maxattempts"`
+	Value		string `json:"value"`
 }
 
 func (client *Client) PostChallenges(params *PostChallengesParams, opts ...Option) (*Challenge, error) {
